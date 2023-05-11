@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block title%}
+Contact
+{% endblock %}
+
+{% block content%}
+
+  <div>
+     <h2 class="mt-5 text-center text-muted">--Contact Us--</h2>
+
+      <div class="container my-5">
+      <div class="row ">
+        <div class="col mt-5">
+
+          <div class="card m-4 bg-success p-3 " style="width: 18rem;">
+              <div class="card-body text-light">
+                <h4 class="card-title">Email</h4>
+                <h6 class="card-subtitle mb-2 ">Cityhospital@gmail.com</h6>
+              </div>
+          </div>
+
+            <div class="card m-4 bg-success p-3" style="width: 18rem;">
+              <div class="card-body text-light">
+                <h4 class="card-title">Ph no:</h4>
+                <h6 class="card-subtitle mb-2">9865778654</h6>
+              
+              </div>
+            </div>
+            <div class="card m-4 bg-success p-3" style="width: 18rem;">
+              <div class="card-body text-light">
+                <h4 class="card-title">Address</h4>
+                <h6 class="card-subtitle mb-2 ">S A Road, Vyttila,</h6>
+                <h6 class="card-subtitle mb-2 ">Ernakulam,Kerala</h6>
+          
+              </div>
+            </div>
+            
+        </div>
+        
+        <div class="col-sm-4">
+          <h3>Get in touch with us</h3>
+          
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name here">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Phone number">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject here">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          
+          <button type="button" class="btn btn-outline-success">Send now</button>
+
+        </div>
+      </div> 
+      </div>
+  </div>
+    <!-- Google map -->
+
+   <div class="container my-5" 
+        style="overflow: hidden;
+         width: 100%;">
+     <h3>Locate us</h3>
+     <hr>
+      <div class="mb-3" >
+        <iframe 
+        style="width: 100%;
+        height:100%;
+        margin-bottom: 10px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.616854650973!2d77.9851708238652!3d10.372488566516902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00aa685165db7f%3A0xbb4001b067d5354c!2sCity%20Hospital%2C%20Chennai%20-%20Theni%20Hwy%2C%20Gandhiji%20Nagar%2C%20Cooperative%20Nagar%2C%20Dindigul%2C%20Tamil%20Nadu%20624004!5e0!3m2!1sen!2sin!4v1683119931149!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+   </div>
+
+{% endblock %}
